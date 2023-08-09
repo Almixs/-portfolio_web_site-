@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Website</title>
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+	
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+	<link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<a href="#" class="logo">Dan.<b>F</b>olio</a>
+
+		<ul class="navlist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#service">Services</a></li>
+			<li><a href="#end-section">Contact</a></li>
+		</ul>
+		<div class="toggleSwitch">
+			<i class="fa fa-sun" value = "white"></i>
+			<i class="fa fa-moon" value = "black" checked></i>
+		</div>
+	</header>
+
+	<section class="home" id="home">
+		<div class="hero-text">
+			<h3>Hello, I'm</h3>
+			<h1>Chornobai Danylo</h1>
+			<h4>Marketer - Video Editor - Developer</h4>
+			<a href="#about" class="btn">About Me</a>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.png">
+		</div>
+
+		<div class="about-text">
+			<h2>About Me</h2>
+			<h5>My ultimate goal is to find a career that allows me to utilize my passion for <span>marketing, entrepreneurship, and interface development</span></h5>
+			<p>Whether it's creating a powerful marketing campaign, developing a cutting-edge interface, or launching a successful startup, I believe that I have the skills and drive necessary to make a difference. With hard work and dedication, I know that I can achieve my dream of making a positive impact in various exciting fields, and I can't wait to see where my career takes me.</p>
+			<a href="#end-section" class="btn">Contact Me</a>
+		</div>
+	</section>
+
+	<section class="service" id="service">
+		<div class="text-center">
+			<h2>My Services</h2>
+		</div>
+
+		<div class="service-item">
+			<div class="service-box">
+				<i class='bx bx-movie'></i>
+				<h3>Video Edit</h3>
+				<p>With expertise in DaVinci Resolve, I have experience in creating videos and clips of various complexities. I can handle simple to moderately complex projects with ease.</p>
+				<a href="#" class="s-btnn">Read More</a>
+			</div>
+
+			<div class="service-box">
+				<i class='bx bx-code-alt' ></i>
+				<h3>Development</h3>
+				<p>With Proficient in HTML, CSS, and Python, I can create efficient code tailored to your business needs. Let's collaborate to achieve your goals!</p>
+				<a href="#" class="s-btnn">Read More</a>
+			</div>
+
+			<div class="service-box">
+				<i class='bx bx-signal-5' ></i>
+				<h3>Analytics</h3>
+				<p>As a beginner in marketing analytics, I can use metrics like ROI, CPA, and conversion rate to allocate resources effectively and enhance business performance.</p>
+				<a href="#" class="s-btnn">Read More</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="end-section" id = "end-section">
+		<h3>Chornobai Danylo</h3>
+		<p>You can contact me here</p>
+		<div class="end-icons">
+			<a href="https://www.instagram.com/chwaymon/"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="https://t.me/DanyloChornobai"><i class='bx bxl-telegram' ></i></a>
+			<a href="https://github.com/Almixs?tab=repositories"><i class='bx bxl-github' ></i></a>
+		</div>
+	</section>
+
+	<script>
+        const toggleSwitch = document.querySelector('.toggleSwitch');
+        toggleSwitch.addEventListener('click', function(){
+            document.body.classList.toggle('switch')
+        })
+	</script>
+	
+	<a href="#" class="scroll-bttn"><i class='bx bx-chevron-up' ></i></a>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
